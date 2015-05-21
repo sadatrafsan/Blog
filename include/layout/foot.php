@@ -1,0 +1,1 @@
+<p>Copyright &copy; <? echo date("Y",time()); ?> | All Rights Reserved | Configured by Rasel</p>

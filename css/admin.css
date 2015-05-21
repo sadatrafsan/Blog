@@ -1,0 +1,106 @@
+
+
+section, article { 
+    display: block;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #666666;
+}
+
+#wrapper{
+    margin: 0 auto;
+    width: 960px;
+    padding: 10px;
+}
+
+section{
+    width: 940px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    height: 500px;
+}
+
+section article{
+    
+    height: 200px;
+    width: 400px;
+    margin: 20% auto;
+    font-size: larger;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+section article header{
+    
+    margin: 0 auto;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #ff9900;
+}
+
+section article header h2{
+    
+    color: #333333;
+    padding: 5px;
+}
+
+a:link, a:visited {
+    
+    font-size: larger;
+    color: #006666;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    
+    font-size: larger;
+    color: #006666;
+    text-decoration: none;
+}
+a:hover {
+    
+    color: #ff3333;
+    text-decoration: underline;
+}
+
+table {
+
+    color: #333333;
+    margin: 5px auto;
+    padding: 5px auto;
+}
+
+tr,td{
+    
+    margin: 5px;
+    padding: 5px;
+}
+
+table input{
+    
+    padding: 3px;
+    border: 2px solid #222;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+table input[type="text"], table input[type="password"]{
+    
+    width: 200px;
+}
+
+table input[type="submit"]{
+    
+    width: 200px;
+    color: #ffffff;
+    background-color: #663300;
+}
